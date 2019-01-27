@@ -1,0 +1,87 @@
+/* ----- FONT ----- */
+
+
+@font-face {
+    font-family: "gothamBold";
+    src: url("../fonts/gothamBold.woff2") format("woff2"), url("../fonts/gothamBold.woff") format("woff");
+}
+
+
+@font-face {
+    font-family: 'gothamUltra';
+    src: url("../fonts/GothamUltra.otf") format("otf");
+    font-weight: normal;
+}
+
+
+
+/* ----- FONT ----- */
+
+body {
+
+    height: 95vh;
+    width: 100%;
+    position: relative;
+}
+
+
+ul {
+
+    
+    height: 100%;
+    width: 20%;
+    position: relative;
+    z-index: 2;
+}
+
+
+li {
+
+    list-style: none;
+    font-family: "gothamBold";
+    font-size: 3em;
+    margin: 10px;
+    position: absolute;
+    overflow: hidden;
+
+}
+
+.fr {
+
+    top: 20%;
+}
+
+.es {
+
+    top: 35%;
+}
+
+.po {
+
+    top: 50%;
+}
+
+.al {
+
+    top: 65%;
+}
+
+
+.image {
+
+    position: absolute;
+    height: 80%;
+    width: 85%;
+    left: 18vh;
+    top: 10%;
+    overflow: hidden;
+    opacity: 0.5;
+    width: 0;
+    
+}
+
+.image img {
+
+    max-height: 100%;
+    max-width: auto;
+}
